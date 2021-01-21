@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "7004d631-ebf7-4fdd-9c4a-2c703842cb02",
+		"name": "Test My BoQ App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetSessionsAndTopics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44388/api/conferencedetail?speakerName=Don Syme&sessionDate=04 December 2013&timeSlot=11:40 - 12:40",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44388",
+					"path": [
+						"api",
+						"conferencedetail"
+					],
+					"query": [
+						{
+							"key": "speakerName",
+							"value": "Don Syme"
+						},
+						{
+							"key": "sessionDate",
+							"value": "04 December 2013"
+						},
+						{
+							"key": "timeSlot",
+							"value": "11:40 - 12:40"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
